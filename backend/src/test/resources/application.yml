@@ -1,0 +1,6 @@
+app:
+  seed:
+    enabled: false
+  jwt:
+    secret: test-secret-that-is-long-enough-for-hmac-signing
+    expiration-ms: 86400000
